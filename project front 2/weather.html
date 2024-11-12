@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="weather-app">
+    <header>
+      <input type="text" id="search" placeholder="Enter City" />
+      <button id="location-button">📍</button>
+      <select id="unit-toggle">
+        <option value="metric">°C</option>
+        <option value="imperial">°F</option>
+      </select>
+    </header>
+    
+    <section id="current-weather" class="current-weather"></section>
+    
+    <section id="forecast" class="forecast"></section>
+  </div>
+  
+  <script src="weather.js"></script>
+</body>
+</html>
